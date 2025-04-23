@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding & Design System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8DA3C1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: #2B1F3A;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        @media (min-width: 768px) {
+            .cards {
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h1>Branding & Design System</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="icon" style="background-color: #FBE8E7;">
+                    🌐
+                </div>
+                <h2>WEBSITE DESIGN</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="card">
+                <div class="icon" style="background-color: #FBECCC;">
+                    🖥️
+                </div>
+                <h2>WEB DEVELOPMENT</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="card">
+                <div class="icon" style="background-color: #D7ECFB;">
+                    📱
+                </div>
+                <h2>MOBILE APP DEVELOPMENT</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

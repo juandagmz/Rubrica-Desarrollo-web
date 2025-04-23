@@ -1,0 +1,8 @@
+Trabajo hecho por:
+-Juan Gomez Suarez
+-Andrés Diart Noya
+-Diego Cuervo Mora
+
+Link del despliegue: https://juandagmz.github.io/Rubrica-Desarrollo-web/
+
+Link del repositorio: https://github.com/juandagmz/Rubrica-Desarrollo-web.git
